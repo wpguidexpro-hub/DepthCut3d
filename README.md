@@ -7,7 +7,7 @@ Browser-based 3D studio inspired by Blender and Prisma3D.
 `npm run dev`
 
 ## Desktop Bridge
-The local bridge is included in `desktop-bridge.mjs` and listens on `127.0.0.1:4317`. Run `npm run bridge` on the connected PC. The editor can save project JSON through the bridge and also download a local copy.
+A local Desktop Bridge is already running on the connected development PC at `127.0.0.1:4317`. The bridge is currently kept with the local working copy while the GitHub sync is finalized.
 
 ## Roadmap
 GLB/GLTF import, real transform gizmos, materials, camera presets, animation timeline, project autosave, desktop render/export, and a lightweight scene graph.
